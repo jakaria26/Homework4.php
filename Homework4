@@ -1,3 +1,12 @@
+<!-- Homework4 
+author: Jakaria Ahmed Mahmud
+school id: jmahmud@genesee.edu
+
+homework4.php is creat web page form personality quize. It has 9 personal question and submit button.  
+!>
+
+
+
 <!DOCTYPE html>
 <html lang="en-US">
     <head>
