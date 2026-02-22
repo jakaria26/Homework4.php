@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <title>Quiz</title>
+    </head>
+    <body>
+
+        <header>
+            <h1>What's you love?</h1>
+            <p> Here exiciting quistions</p>
+        </header>
+
+        <main>
+            <form action="homework4-submit.php" method="post" class="survey">
+                <div>
+                    <label for="name">Name:</label>
+                    <input name="name" type="text" id="name" />
+                </div>
+                
+                    <li>
+                        <fieldset> <!-- Question 1 -->
+                            <legend>What is your favourite sports</legend>
+
+                            <div>
+                                <input type="radio" name="question-1" id="A" value="A" required />
+                                <label for="A">Football</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="question1" id="B" value="B" />
+                                <label for="favourite-sport">Cricket</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="question-1" id="C" value="C" />
+                                <label for="C">Basketball</label>
+                            </div>
+                            
+                        </fieldset>
+                    </li> 
+
+                     <li>
+                        <fieldset> <!-- Question 2 -->
+                            <legend>What is your favourite place in buffalo</legend>
+
+                            <div>
+                                <input type="radio" name="question-2" id="A" value="A" required />
+                                <label for="A">Niagara Falls</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="question-2" id="B" value="B" />
+                                <label for="B">Harber Park</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="question-2" id="C" value="C" />
+                                <label for="C">Buffalo Downtown</label>
+                            </div>
+                            
+                        </fieldset>
+                    </li> 
+
+                    <li>
+                        <fieldset> <!-- Question 3 -->
+                            <legend>What is your favourite Subject</legend>
+
+                            <div>
+                                <input type="radio" name="question-3" id="A" value="A" required />
+                                <label for="A">Mathmatcis</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="question-3" id="B" value="B" />
+                                <label for="B">English</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="question-3" id="C" value="C" />
+                                <label for="C">Accounting</label>
+                            </div>
+                            
+                        </fieldset>
+                    </li> 
+
+                    <li>
+                        <fieldset> <!-- Question 4 -->
+                            <legend>What is your favourite animal</legend>
+
+                            <div>
+                                <input type="radio" name="question-4" id="A" value="A" required />
+                                <label for="A">Dog</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="question-4" id="B" value="B" />
+                                <label for="B">Cat</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="question-4" id="C" value="C" />
+                                <label for="C">Pet</label>
+                            </div>
+                            
+                        </fieldset>
+                    </li> 
+
+                    <li>
+                        <fieldset> <!-- Question 5 -->
+                            <legend>What is your favourite food</legend>
+
+                            <div>
+                                <input type="radio" name="question-5" id="A" value="A" required />
+                                <label for="A">Noodles</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="question-5" id="B" value="B" />
+                                <label for="B">Kabab</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="question-5" id="C" value="C" />
+                                <label for="C">Biriyani</label>
+                            </div>
+                            
+                        </fieldset>
+                    </li> 
+                    <li>
+                        <fieldset> <!-- Question 6 -->
+                            <legend>What is your academic degree</legend>
+
+                            <div>
+                                <input type="radio" name="question-6" id="A" value="A" required />
+                                <label for="A"> A.A.S</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="question-6" id="B" value="B" />
+                                <label for="C">Bachelor</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="question-6" id="C" value="C" />
+                                <label for="C">Masters</label>
+                            </div>
+                            
+                        </fieldset>
+                    </li> 
+
+                    <li>
+                        <fieldset> <!-- Question 7 -->
+                            <legend>What is your favourite City</legend>
+
+                            <div>
+                                <input type="radio" name="question-7" id="A" value="A" required />
+                                <label for="A">Newyork</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="question-7" id="B" value="B" />
+                                <label for="B">Los Angels</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="question-7" id="C" value="C" />
+                                <label for="C">Miami</label>
+                            </div>
+                            
+                        </fieldset>
+                    </li> 
+                    <li>
+                        <fieldset> <!-- Question8 -->
+                            <legend>What is your favourite place at GCC main campus</legend>
+
+                            <div>
+                                <input type="radio" name="question-8" id="A" value="A" required />
+                                <label for="A">Student Union</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="question-8" id="B" value="B" />
+                                <label for="B">Library</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="question-8" id="C" value="C" />
+                                <label for="C">Gym Center</label>
+                            </div>
+                            
+                        </fieldset>
+                    </li> 
+                    <li>
+                        <fieldset> <!-- Question 9 -->
+                            <legend>What is favourite hobby</legend>
+
+                            <div>
+                                <input type="radio" name="question-9" id="A" value="A" required />
+                                <label for="A">Watching Movie</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="question-9" id="B" value="St" />
+                                <label for="B">Reading book</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="question-9" id="C" value="C" />
+                                <label for="C">Painting</label>
+                            </div>
+                            
+                        </fieldset>
+                    </li> 
+
+                     
+
+                <div>
+                    <button type="submit" name="submit" id="submit">Submit</button>
+                </div>
+            </form>
+        </main>
+
+    </body>
+</html>
